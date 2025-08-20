@@ -165,3 +165,55 @@ main {
     border-top: .3rem solid var(--primary-blue);
 }
 
+@media (min-width: 48rem) {
+
+    main {
+        min-width: 45rem;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr 4.125rem 4.125rem 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .card {
+        max-width: 21.5rem;
+    }
+
+    .team-builder {
+        grid-column: 2 / 6;
+        grid-row: 1;
+        justify-self: center;
+    }
+
+    .supervisor {
+        grid-column: 1 / 4;
+        grid-row: 2;
+    }
+
+    .karma {
+        grid-column: 4 / 7;
+        grid-row: 2;
+    }
+
+    .calculator {
+        grid-column: 2 / 6;
+        grid-row: 3;
+        justify-self: center;
+    }
+
+    header {
+        max-width: 32rem;
+    }
+
+    .display-header {
+        font-size: var(--font-xl);
+    }
+
+    .overline-header {
+        font-size: var(--font-xl);
+    }
+
+    .body-text {
+        font-size: var(--font-sm);
+    }
+}
