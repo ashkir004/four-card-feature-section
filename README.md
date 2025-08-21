@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github: Four Card Feature Section](https://github.com/ashkir004/four-card-feature-section)
+- Live Site URL: [Netlify: four-card-feature-section-ashkir004](https://four-card-feature-section-ashkir004.netlify.app/)
 
 ## My process
 
@@ -57,7 +57,7 @@ Users should be able to:
 
 ### Continued development
 
-- More CSS Grid
+- Add support for Laptops
 
 ### Useful resources
 
