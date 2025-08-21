@@ -240,7 +240,7 @@ main {
     }
 
     main {
-        min-width: 64rem;
+        min-width: 68rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -248,7 +248,7 @@ main {
     }
 
     .card {
-        max-width: 34rem;
+        max-width: 32rem;
     }
 
     .supervisor {
