@@ -232,11 +232,11 @@ main {
 @media (min-width: 80rem) { /* Desktop */
 
     body {
-        padding: 7rem 0;
+        /* padding: 7rem 0; */
     }
 
     header {
-        margin-block-start: 0rem;
+        margin-block-start: 7rem;
     }
 
     main {
@@ -245,6 +245,7 @@ main {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         justify-content: center;
+        margin-block-end: 7rem;
     }
 
     .card {
