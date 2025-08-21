@@ -178,6 +178,7 @@ main {
 @media (min-width: 48rem) { /* Tablet */
 
     body {
+        flex: grid;
         gap: var(--space-xxl);
     }
 
@@ -250,7 +251,7 @@ main {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         justify-content: center;
-        margin-block-end: 7rem;
+        margin-bottom: 7rem;
     }
 
     .card {
