@@ -8,8 +8,10 @@
 }
 
 html, body {
-    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
+
 
 /* CSS Variables */
 :root {
@@ -31,6 +33,7 @@ html, body {
     --space-lg: calc(32 / 16 * 1rem);
     --space-xl: calc(40 / 16 * 1rem);
     --space-xxl: calc(60 / 16 * 1rem);
+    --space-xxxl: calc(74 / 16 * 1rem);
 
     /* Typography */
     --font-family: 'Poppins', sans-serif;
@@ -109,12 +112,12 @@ body {
     flex-direction: column;
     align-items: center;
     gap: var(--space-xxl);
-    margin: 3.5rem 0;
 }
 
 header {
     max-width: 19.75rem;
     text-align: center;
+    margin-block-start: 3.5rem;
 }
 
 main {
@@ -122,6 +125,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: var(--space-lg);
+    margin-block-end: 3rem;
 }
 
 /* Card */
@@ -141,7 +145,7 @@ main {
     max-height: 4rem;
     align-self: flex-end;
     box-sizing: border-box;
-    margin-block-end: .5rem;
+    margin-block-end: 1rem;
 }
 
 .card .card-body {
@@ -168,12 +172,18 @@ main {
 
 /* Media Queries */
 @media (min-width: 48rem) { /* Tablet */
+
+    body {
+        gap: var(--space-xxl);
+    }
+
     main {
         min-width: 40rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         justify-content: center;
+        margin-block-end: 3.25rem;
     }
 
     .card {
@@ -220,6 +230,15 @@ main {
 }
 
 @media (min-width: 80rem) { /* Desktop */
+
+    body {
+        margin: 7rem 0;
+    }
+
+    header {
+        margin-block-start: 0rem;
+    }
+
     main {
         min-width: 64rem;
         display: grid;
@@ -229,7 +248,7 @@ main {
     }
 
     .card {
-        max-width: 32rem;
+        max-width: 34rem;
     }
 
     .supervisor {
