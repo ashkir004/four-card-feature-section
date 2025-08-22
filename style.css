@@ -172,7 +172,6 @@ main {
 
 .calculator {
     border-top: .3rem solid var(--primary-blue);
-    margin-block-end: 3rem;
 }
 
 /* Media Queries */
