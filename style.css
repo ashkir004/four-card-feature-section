@@ -236,7 +236,7 @@ main {
 @media (min-width: 80rem) { /* Desktop */
 
     header {
-        margin-block-start: 6rem;
+        padding-block-start: 6rem;
     }
 
     main {
